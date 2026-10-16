@@ -1,0 +1,20 @@
+[
+    {
+        "ip": "10.0.0.99",
+        "type": "Brute Force Login Attempt",
+        "details": "Terdeteksi 5 kali percobaan login gagal pada /login",
+        "severity": "HIGH"
+    },
+    {
+        "ip": "172.16.0.12",
+        "type": "SQL Injection (SQLi)",
+        "details": "Payload terdeteksi pada URL: /products.php?id=1%27%20OR%201=1--",
+        "severity": "HIGH"
+    },
+    {
+        "ip": "172.16.0.12",
+        "type": "Directory / Path Traversal",
+        "details": "Akses file sensitif terdeteksi: /../../etc/passwd",
+        "severity": "HIGH"
+    }
+]
